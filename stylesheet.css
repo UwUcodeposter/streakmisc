@@ -1,0 +1,18 @@
+/* UwUcodeposter */
+
+/* Objects */
+
+body {
+    margin: 15vw;
+}
+
+/* Classes */
+
+@supports (corner-shape: squircle) {
+    .button {
+        border-radius: 30px;
+        corner-shape: squircle;
+        height: 2vw;
+        width: 6vw;
+    }
+}
